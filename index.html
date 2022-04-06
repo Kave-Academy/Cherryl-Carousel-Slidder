@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <title>Carousel</title>
+  </head>
+  <body>
+    <section class="form-body" autocomplete="off">
+      <div class="container right-panel-active form-container">
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+          <form action="#" class="formSection" id="form1">
+            <h2 class="form__title">Info</h2>
+            <input type="email" placeholder="Email" class="input" />
+            <input type="text" placeholder="Name" class="input" />
+          </form>
+        </div>
+
+        <!-- Sign In -->
+        <div class="container__form container--signin">
+          <form action="#" class="formSection" id="form2">
+            <h2 class="form__title">Message</h2>
+            <input
+              type="message"
+              placeholder="Message"
+              class="inputMessage"
+              name=""
+            />
+            <button class="form-btn">Submit</button>
+          </form>
+        </div>
+
+        <!-- Overlay -->
+        <div class="container__overlay">
+          <div class="overlay">
+            <div class="overlay__panel overlay--left">
+              <button class="form-btn" id="signIn">Message</button>
+            </div>
+            <div class="overlay__panel overlay--right">
+              <button class="form-btn" id="signUp">Info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
