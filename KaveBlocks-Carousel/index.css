@@ -1,0 +1,59 @@
+.services-card {
+  position: relative;
+  height: 100vh;
+}
+
+.services-card .service-background {
+  background: gray;
+  height: 23rem;
+  width: 35rem;
+  position: absolute;
+  border-radius: 60px;
+  opacity: .2;
+  left: 2.5rem;
+  z-index: -1;
+}
+
+.services-card .service-backgroundR {
+  background: gray;
+  height: 22rem;
+  width: 35rem;
+  position: absolute;
+  border-radius: 60px;
+  opacity: .2;
+  right: 2.5rem;
+}
+
+.services-card .services-black {
+  background: #000000;
+  border-radius: 68px;
+  padding: 28px;
+  color: white;
+}
+
+.services-card .services-orange {
+  background: #FF8A00;
+  border-radius: 68px;
+  padding: 28px;
+  color: white;
+}
+
+.services-card .service-btn {
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.services-card .service-btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.services-card .service-cardbody {
+  padding: 3rem 3rem;
+}
+/*# sourceMappingURL=index.css.map */
